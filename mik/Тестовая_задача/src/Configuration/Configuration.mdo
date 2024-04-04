@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fecc2edb-ce09-4f48-9b2f-c6d4f9895048">
+  <name>ТестовоеЗадание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестовое задание</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="29fb5e34-4051-428b-abd8-6e6b496a22a1"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="ffdb642e-cd8a-4280-a0f1-37b8986d2a85"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="4fe9af48-b152-400b-8d15-eabb74769643"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="6bd18acf-f6e4-4ce1-aae9-25bcae4fda9c"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b893e48b-774d-49c0-817d-1127bf3a5a23"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="c6320564-caa4-46ce-b787-00f2c1ecabc9"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="908754f8-d313-488c-8769-34411a4c9e2a"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Рубцов Дмитрий</vendor>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="fc037d0e-42cd-482d-adf7-acbe34fbd5a2">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Торговля</subsystems>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Договоры</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.РасходнаяНакладная</documents>
+  <documents>Document.РасходДенег</documents>
+  <enums>Enum.ВидыЗакупки</enums>
+  <enums>Enum.МетодыСписанияТоваров</enums>
+  <reports>Report.ВзаиморасчетыСКомитентами</reports>
+  <informationRegisters>InformationRegister.УчетныеПолитики</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Себестоимость</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВзаиморасчетыСКомитентами</accumulationRegisters>
+</mdclass:Configuration>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="267a5058-361f-4c26-984f-75e5bd9c7ede">
+  <producedTypes>
+    <selectionType typeId="a06a6f05-7fe9-4546-ab9f-358f6f6d821e" valueTypeId="599f97de-e3f8-4d39-b2bd-6557d57c533a"/>
+    <listType typeId="7e74201d-6708-472b-a60f-8368ed65cf48" valueTypeId="8a4efa30-9f69-4e10-bea1-c404e6b54e80"/>
+    <managerType typeId="32a34748-d7c5-4ad5-a64f-29656898bd78" valueTypeId="15cf9da1-30c4-4bf1-a01c-f7361db7a79f"/>
+    <recordSetType typeId="234432b0-c423-438f-b21d-6605c5b0354b" valueTypeId="23c5aeef-2a0f-4be2-9059-b517689bc686"/>
+    <recordKeyType typeId="4004a80f-1f67-46dc-90da-8d2ff287200b" valueTypeId="0ba72c78-241f-45c7-810f-83f5a3f3b782"/>
+    <recordType typeId="187c33bc-67fc-4428-958c-042f80fc668c" valueTypeId="534d6e7f-17d9-4692-97ae-0d74a697394a"/>
+    <recordManagerType typeId="969a8f4d-ffd3-4f57-af86-d12bbc828137" valueTypeId="97964854-ff1c-4bc0-8067-f266ac0a2dcd"/>
+  </producedTypes>
+  <name>УчетныеПолитики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетные политики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="179e45b7-925d-4426-94aa-f99538328ae2">
+    <name>МетодСписанияТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод списания товаров</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МетодыСписанияТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9d9bf9c0-31ea-40ff-b4f5-684f3647e5f6">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

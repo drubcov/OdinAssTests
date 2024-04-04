@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f23702e7-2f0a-4e27-9774-5ce4485ee6d0">
+  <producedTypes>
+    <refType typeId="09297cdc-2aac-4f83-a091-95c4ac6e2823" valueTypeId="3b45ce5b-07c9-417e-88a9-41fe2a682aff"/>
+    <listType typeId="4663f7b1-6d41-4f9a-b422-5a9af0cc3714" valueTypeId="4b525664-056f-4da0-a45f-433ab7643171"/>
+    <managerType typeId="5bf325e1-70e4-4dbd-9a8a-cb263ac671e4" valueTypeId="210efde3-1056-4424-b215-64931cfb449c"/>
+  </producedTypes>
+  <name>ВидыЗакупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды закупки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="06911508-97c1-4690-be7f-a6d152f75c88">
+    <name>Покупка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор поставки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3643abfa-82a4-4aae-998e-72d4a93f0322">
+    <name>Комиссия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор комиссии(покупка)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
